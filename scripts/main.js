@@ -19,6 +19,7 @@ function picLink() {
   if (pic.className)
   {
     pic.className=(pic.className=='hide')?'':'hide';
+    event.preventDefault();
   } 
 }
 
