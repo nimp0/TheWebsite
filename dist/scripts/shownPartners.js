@@ -6,7 +6,7 @@ var ben = document.getElementById("ben");
 simon.addEventListener("click", picLink);
 bruce.addEventListener("click", picLink);
 ben.addEventListener("click", picLink);
-
+ы;
 function picLink() {
   var allImages = document.querySelectorAll(".partnerSection img");
 
@@ -16,18 +16,8 @@ function picLink() {
 
   var picId = this.attributes["data-img"].value;
   var pic = document.getElementById(picId);
-  if (pic.className)
-  {
-    pic.className=(pic.className=='hide')?'':'hide';
+  if (pic.className) {
+    pic.className = pic.className == "hide" ? "" : "hide";
     event.preventDefault();
-  } 
+  }
 }
-
-
-
-
-
-
- 
-
-
