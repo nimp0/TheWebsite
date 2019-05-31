@@ -6,7 +6,7 @@ var ben = document.getElementById("ben");
 simon.addEventListener("click", picLink);
 bruce.addEventListener("click", picLink);
 ben.addEventListener("click", picLink);
-ы;
+
 function picLink() {
   var allImages = document.querySelectorAll(".partnerSection img");
 

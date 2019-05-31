@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "MyWebSite",
   "main": "index.js",
+  "homepage": "https://nimp0.github.io/TheWebsite/",
   "scripts": {
-    "sass": "node-sass -w scss -o dist/css/ --recursive"
+    "sass": "node-sass -w scss -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,8 +17,8 @@
   "bugs": {
     "url": "https://github.com/nimp0/TheWebsite/issues"
   },
-  "homepage": "https://github.com/nimp0/TheWebsite#readme",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.12.0"
   }
 }
